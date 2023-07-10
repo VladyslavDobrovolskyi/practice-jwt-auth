@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/VladyslavDobrovolskyi/jwt-auth/issues"
   },
-  "homepage": "https://github.com/VladyslavDobrovolskyi/jwt-auth#readme"
+  "homepage": "https://github.com/VladyslavDobrovolskyi/jwt-auth#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1"
+  }
 }
